@@ -3,7 +3,7 @@ import "/home/juannvrs/Documents/nextjs-learning/nextjs-series/src/app/globals.c
 
 const page = () => {
   return (
-    <div className="div">
+    <div>
       <h1 className="h1 text-white">ForgotPassword</h1>
     </div>
   )
