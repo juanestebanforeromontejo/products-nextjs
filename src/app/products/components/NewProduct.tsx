@@ -1,11 +1,14 @@
+import Link from "next/link"
+
 interface Props {
   productName: string
 }
 
 const NewProduct = (props: Props) => {
+  const link = "products/" + props.productName;
   return (
     <div>
-      <p className="font-bold text-white m-3">{props.productName}</p>
+      <Link href={link}><p className="font-bold text-white m-3">{props.productName}</p></Link>
     </div>
   )
 }

@@ -1,3 +1,9 @@
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "About codevolution"
+};
+
 const page = () => {
   return (
     <div className="w-screen h-screen bg-black flex flex-col">
